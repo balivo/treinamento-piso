@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxingUnboxing", "BoxingUnboxing\BoxingUnboxing.csproj", "{AAEBFC6B-50B5-4EA8-9A7A-6E21C049A953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumeradores", "Enumeradores\Enumeradores.csproj", "{E1C0A4D2-1CD6-469A-B534-9FFA4E1EB199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturasControle", "EstruturasControle\EstruturasControle.csproj", "{4F124432-11D9-4C37-98E5-4F6B385AEB67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TratamentoErros", "TratamentoErros\TratamentoErros.csproj", "{ACAEF427-6A8D-4DBE-A0A0-A59A0F840C88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAEBFC6B-50B5-4EA8-9A7A-6E21C049A953}.Debug|x86.ActiveCfg = Debug|x86
+		{AAEBFC6B-50B5-4EA8-9A7A-6E21C049A953}.Debug|x86.Build.0 = Debug|x86
+		{AAEBFC6B-50B5-4EA8-9A7A-6E21C049A953}.Release|x86.ActiveCfg = Release|x86
+		{AAEBFC6B-50B5-4EA8-9A7A-6E21C049A953}.Release|x86.Build.0 = Release|x86
+		{E1C0A4D2-1CD6-469A-B534-9FFA4E1EB199}.Debug|x86.ActiveCfg = Debug|x86
+		{E1C0A4D2-1CD6-469A-B534-9FFA4E1EB199}.Debug|x86.Build.0 = Debug|x86
+		{E1C0A4D2-1CD6-469A-B534-9FFA4E1EB199}.Release|x86.ActiveCfg = Release|x86
+		{E1C0A4D2-1CD6-469A-B534-9FFA4E1EB199}.Release|x86.Build.0 = Release|x86
+		{4F124432-11D9-4C37-98E5-4F6B385AEB67}.Debug|x86.ActiveCfg = Debug|x86
+		{4F124432-11D9-4C37-98E5-4F6B385AEB67}.Debug|x86.Build.0 = Debug|x86
+		{4F124432-11D9-4C37-98E5-4F6B385AEB67}.Release|x86.ActiveCfg = Release|x86
+		{4F124432-11D9-4C37-98E5-4F6B385AEB67}.Release|x86.Build.0 = Release|x86
+		{ACAEF427-6A8D-4DBE-A0A0-A59A0F840C88}.Debug|x86.ActiveCfg = Debug|x86
+		{ACAEF427-6A8D-4DBE-A0A0-A59A0F840C88}.Debug|x86.Build.0 = Debug|x86
+		{ACAEF427-6A8D-4DBE-A0A0-A59A0F840C88}.Release|x86.ActiveCfg = Release|x86
+		{ACAEF427-6A8D-4DBE-A0A0-A59A0F840C88}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
