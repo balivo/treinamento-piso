@@ -1,0 +1,63 @@
+﻿@model GestaoComercial.Web.Models.Produto
+
+@{
+    Layout = null;
+}
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>Produto</h1>
+    <ol class="breadcrumb">
+        <li><a href="~/"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="#">Cadastros</a></li>
+        <li><a href="~/produtos" data-ajax="true" data-ajax-update="#main-container">Produtos</a></li>
+        <li class="active">Novo</li>
+    </ol>
+</section>
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header with-border">
+                    <h3 class="box-title">&nbsp;</h3>
+                </div>
+                <form action="~/produtos/create" method="post" class="form-horizontal" data-ajax="true" data-ajax-update="#main-container">
+                    @Html.AntiForgeryToken()
+                    <div class="box-body">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Descricao, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Descricao, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Descricao, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Valor, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Valor, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Valor, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <a href="~/produtos" data-ajax="true" data-ajax-update="#main-container" class="btn btn-default">Cancelar</a>
+                        <button type="submit" class="btn btn-info pull-right">Salvar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    @Scripts.Render("~/js/jqueryval")
+</script>
